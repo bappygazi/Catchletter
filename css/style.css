@@ -1,0 +1,1242 @@
+/*common part css*/
+
+* {
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+ul,
+li,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clr {
+    clear: both;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/*============================
+        Home page css Start
+=============================*/
+/*header css start*/
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+.navbg {
+    background: #1979ec;
+    box-shadow: none;
+    width: 100%;
+    padding: .5rem 1rem;
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, .15);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #cbd9f5;
+
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #cbd9f5;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem
+}
+
+.free-trial a {
+    color: #1671de !important;
+    background: #fff;
+    border-radius: 22px;
+    transition: all linear .2s;
+
+}
+
+.free-trial a:hover {
+    background: #1671de;
+    color: #fff !important;
+}
+
+/*header css end*/
+
+/*banner css start*/
+#banner {
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 175px;
+    position: relative;
+    padding-bottom: 500px;
+}
+
+.banner-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.banner-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    color: #fff;
+
+}
+
+.deshboard {
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.deshboard-mail {
+    width: 30%;
+    background: #fff;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    position: absolute;
+    left: 708px;
+    top: 100px;
+    filter: drop-shadow(0px 1px 12px rgba(127, 127, 127, 0.9));
+}
+
+.deshboard-mail-text {
+    padding: 0px 35px 0px 30px;
+
+}
+
+.deshboard-mail-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #007bff;
+    padding-top: 10px;
+}
+
+.deshboard-mail-text p {
+
+    color: #9d9c9c;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+
+}
+
+.buton-a {
+    padding-top: 25px;
+}
+
+.buton-a a {
+    border: 2px solid #1979ec;
+    border-radius: 27px;
+    padding: 15px 65px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #007bff;
+    transition: all linear .2s;
+}
+
+.buton-a a i {
+    font-size: 22px;
+    padding-right: 5px;
+}
+
+.buton-a a:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+.mail-star {
+    position: absolute;
+    top: 106px;
+    left: 216px;
+    width: 56%;
+}
+
+/*add-website css end*/
+.add-website-text {
+    padding-top: 125px;
+}
+
+.add-website-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #333333;
+    padding-bottom: 15px;
+
+}
+
+.add-website-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 38px;
+    color: #7b7b7b;
+    padding: 0 15px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.add-website-text p::after {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 102px;
+    height: 5px;
+    background: #1979ec;
+    content: '';
+    transform: translateX(-50%);
+}
+
+#website {
+    background: url(../images/website-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.website-text1 {
+    padding-top: 210px;
+}
+
+/*
+.website-text2 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 38px;
+    border: 4px solid #1979ec;
+    color: #1979ec;
+    padding: 6px 0px;
+    margin: 0 8px;
+    border-radius: 50%;
+}
+*/
+
+.website-text3 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 33px;
+    color: #adadad;
+    padding-bottom: 8px;
+}
+
+.website-text3 h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+}
+
+.website-text3 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 34px;
+    color: #333333;
+    padding-top: 30px;
+}
+
+.website-text4 {
+    padding-top: 115px;
+}
+
+.pad {
+    padding-right: 45px !important;
+}
+
+/*new-website css start*/
+#new-website {
+    background: url(../images/website-banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.new-website-text4 {
+    padding-top: 115px;
+}
+
+.new-website-text1 {
+    padding-top: 230px;
+}
+
+
+.new-website-text2 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 38px;
+    border: 4px solid #1979ec;
+    color: #1979ec;
+    padding: 6px 0px;
+    margin: 0 8px;
+    border-radius: 50%;
+}
+
+.new-website-text3 {}
+
+.new-website-text3 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 33px;
+    color: #adadad;
+    padding-bottom: 8px;
+}
+
+.new-website-text3 h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+}
+
+.new-website-text3 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 34px;
+    color: #333333;
+    padding-top: 30px;
+}
+
+/*website-third css start*/
+#website-third {
+    background: url(../images/website-banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 50px;
+}
+
+.website-text6 {
+    padding-top: 115px;
+}
+
+/*start-part css start*/
+#start {
+    padding-top: 110px;
+    background: #1979ec;
+    padding-bottom: 95px;
+    position: relative;
+
+}
+
+#start::after {
+    position: absolute;
+    background: url(../images/startpart-after.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 35%;
+    content: '';
+}
+
+.start-text {}
+
+.start-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #fff;
+}
+
+.start-text h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+.start-text a {
+    padding: 15px 25px;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1979ec;
+    border-radius: 30px;
+    transition: all linear .2s;
+}
+
+.start-text a:hover {
+    background: #4292ed;
+    color: #fff;
+}
+
+.start-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 20px;
+}
+
+
+/*email css start*/
+#email {
+    background: #f8f8f8;
+    padding-bottom: 105px;
+}
+
+.email-text {}
+
+.email-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #333333;
+    padding-top: 90px;
+    padding-bottom: 33px;
+}
+
+.email-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 38px;
+    color: #7b7b7b;
+    padding: 0 15px;
+    position: absolute;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.email-text p::after {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    width: 102px;
+    height: 5px;
+    background: #1979ec;
+    content: '';
+    transform: translateX(-50%);
+}
+
+.all-email {
+    padding-top: 30px;
+}
+
+.tik-icon {
+    padding-top: 5px;
+}
+
+.tik-icon i {
+    font-size: 35px;
+    color: #a3dc1c;
+}
+
+.email-items p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7b7b7b;
+}
+
+/*client css start*/
+#client {
+    background: url(../images/clients-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.client-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #333333;
+
+}
+
+.client-text h3::after {
+    position: absolute;
+    bottom: -42px;
+    left: 50%;
+    width: 102px;
+    height: 5px;
+    background: #1979ec;
+    content: '';
+    transform: translateX(-50%);
+}
+
+.clients {
+    padding-top: 140px;
+    padding-bottom: 90px;
+}
+
+.clients-text p {
+    padding-top: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #1979ec;
+    line-height: 36px;
+}
+
+.all-client {
+    margin-bottom: 30px;
+    background: #fff;
+    filter: drop-shadow(0px 1px 12px rgba(127, 127, 127, 0.1));
+    border-radius: 5px;
+}
+
+.client-img {
+    padding-top: 20px;
+}
+
+.client-message h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2d2c2c;
+    line-height: 32px;
+    padding-top: 15px;
+}
+
+.client-message p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #888888;
+    line-height: 32px;
+    padding-bottom: 15px;
+}
+
+.client-line {
+    margin: 0 25px;
+    border-top: 1px solid #f1f1f1;
+    padding: 20px 0;
+}
+
+.client-line p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ababab !important;
+}
+
+.clinet-line p a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1979ec;
+}
+
+/*footer css start*/
+#footer {
+    background: url(../images/fooder-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 300px;
+    padding-bottom: 150px;
+}
+
+.social-logo {
+    padding-top: 120px;
+}
+
+.black-logo {
+    display: none;
+}
+
+.social-icon {
+    padding-top: 50px;
+}
+
+.social-icon a i {
+    padding: 10px 11px;
+    color: #ffffff;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    margin-right: 4px;
+
+}
+
+.footer-text li {
+    padding: 8px 0;
+
+}
+
+.footer-text li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #777777;
+
+}
+
+.footer-text li a:hover {
+    color: #1979ec;
+}
+
+.footer-text li a i {
+    color: #1979ec;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.footer-text-link {
+    padding-top: 85px;
+
+}
+
+.footer-text-link a {
+    padding: 15px 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #1979ec;
+    border-radius: 30px;
+    border: 2px solid #1979ec;
+    transition: all linear .2s;
+}
+
+.footer-text-link a i {
+    margin-left: 5px;
+}
+
+.footer-text-link a:hover {
+    background: #1979ec;
+    color: #fff;
+}
+
+.footer-text-link p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 36px;
+    color: #9e9e9e;
+    padding-top: 25px;
+}
+
+/*==============================
+        Home page css end
+================================*/
+
+/*==============================
+        Product page css Start
+===============================*/
+/*banner css start*/
+#product-banner {
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 190px;
+    position: relative;
+    padding-bottom: 560px;
+}
+
+.product-deshboard {
+    position: absolute;
+    bottom: -20px;
+    left: -100px;
+    width: 100%;
+    height: 100%;
+}
+
+/* product-website page css */
+.product-website-text {
+    padding-top: 160px;
+}
+
+.product-website-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #adadad;
+}
+
+.product-website-text h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+    padding-bottom: 50px;
+}
+
+.product-website-text h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 34px;
+    color: #333333;
+    padding-bottom: 20px;
+
+}
+
+.product-website-text ul li span {
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #333333;
+    padding: 20px 0;
+    line-height: 33px;
+}
+
+.product-website-text ul li {
+    position: relative;
+}
+
+.product-website-text ul li i {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    color: #a3dc1c;
+    font-size: 35px;
+}
+
+.product-website-img {
+    padding-top: 160px;
+}
+
+.pdto {
+    padding-top: 100px;
+}
+
+/* prodect-website-third page css */
+#prodect-website-third {
+    background: url(../images/product-website-banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-items ul li {
+    float: left;
+}
+
+/* prodect-website-forth page css */
+#website-forth {
+    background: url(../images/website-banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 80px;
+}
+
+.padtop {
+    padding-top: 100px;
+}
+
+/*==============================
+        Product page css end
+===============================*/
+/*==============================
+        singin page css Start
+===============================*/
+#sigin-in {
+    background: url(../images/sigin-in-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.singin-all {
+    height: 100vh;
+}
+
+
+
+.sigin-form {
+    background: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.36));
+}
+
+
+.sigin-text {
+    background: #338aec;
+    padding: 50px 0;
+    filter: drop-shadow(7px 0px 7px rgba(0, 0, 0, 0.36));
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.padd-sig {
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+.padd-text {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.sigin-form p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #919191;
+}
+
+.all-input {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.input-box {
+    border-bottom-color: #fff;
+    border: 2px solid #f1f1f1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 15px;
+}
+
+.input-box h4 {
+    padding-top: 5px;
+    padding-bottom: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3e3e3e;
+
+
+}
+
+.mail {
+    margin-top: 2px;
+    height: 45px;
+    border: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #817c7c;
+}
+
+.pass-box {
+    padding-left: 15px;
+    border: 2px solid #f1f1f1;
+    border-top: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.pass::placeholder {
+    font-size: 15px;
+}
+
+.pass-box h5 {
+    padding-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3e3e3e;
+}
+
+.pass {
+    margin-top: 2px;
+    height: 45px;
+    border: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #817c7c;
+}
+
+.sigin-form span {
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #817c7c;
+}
+
+.check-box {
+    margin-left: 10px;
+}
+
+.forgot {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #3389eb;
+}
+
+.login {
+    text-align: center;
+}
+
+.login a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 15px 41%;
+    margin-top: 50px;
+    border-radius: 40px;
+    background: #338aec;
+    color: #fff !important;
+    display: inline-block;
+}
+
+.sigin-text {
+    padding-top: 80px;
+    padding-bottom: 89px;
+}
+
+.sigin-form p {
+    color: #696969;
+    padding-top: 15px;
+}
+
+.sigin-form p a span {
+    color: #4792ed;
+}
+
+
+.sigin-text img {
+    border: 2px solid #5ca1f0;
+    border-radius: 50%;
+}
+
+.sigin-text p {
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.sigin-text h3 {
+    padding-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+}
+
+/*pricing css part*/
+
+.pricing-content {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    background: #fff;
+    padding-top: 40px;
+    border-radius: 7px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.pricing-content h3 {
+    color: #1979ec;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 35px;
+    padding-bottom: 10px;
+
+}
+
+.pricing-img {
+    position: absolute;
+    top: 486px;
+    width: 18%;
+    left: 10px;
+}
+
+.pricing-content p {
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #6f6f6f;
+    padding-bottom: 20px;
+
+}
+
+.month {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #2b2a2a;
+    margin-right: 10px;
+
+}
+
+.custom-check {
+    margin-bottom: -3px;
+    width: 35px;
+    height: 17px;
+    border-radius: 35px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background: #d8d8d8;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.custom-check span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #d8d8d8;
+    z-index: -1;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.custom-check i {
+    width: 17px;
+    height: 17px;
+    border-radius: 29px;
+    content: " ";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #ded9d9;
+    background: #fff;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.custom-check input {
+    display: none;
+}
+
+.custom-check input:checked + i {
+    left: 18px;
+    background: #1979ec;
+}
+
+.custom-check input:checked + i + span {
+    background: #e6f1fd;
+    font-size: 18px;
+}
+
+.save {
+    color: #c4c4c4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.pricing-details {
+    margin-top: 30px;
+    border-top: 2px solid #f1f1f1;
+    border-left: 2px solid #f1f1f1;
+    border-bottom: 2px solid #f1f1f1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.detiles-text {
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.detiles-text h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #c9c9c9 !important;
+    font-size: 36px;
+    line-height: 23px;
+    padding-top: 22px;
+    padding-bottom: 15px;
+}
+
+.detiles-text h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #aeaeae;
+}
+
+.doller {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 28px !important;
+}
+
+.detiles-text h5 span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.items-text {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.items-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300 !important;
+    font-size: 16px !important;
+    color: #959595 !important;
+}
+
+.items-text p span {
+    font-weight: 500 !important;
+}
+
+.items-text a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    padding: 13px 80px;
+    border-radius: 30px;
+    color: #338aec;
+    border: 2px solid #338aec;
+
+}
+
+.items-text a i {
+    margin-left: 10px;
+}
+
+.review-text h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #fff;
+}
+
+.review-text p {
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+}
+
+.pricing-deails2 {
+    transform: scale(1.03);
+    background: #fff;
+    border: 2px solid #338aec;
+     !important;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.pricing-details3 {
+    margin-left: 5px;
+    border-left: 0 !important;
+    border-right: 2px solid #f1f1f1;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.pricing-ang {
+    background: #338aec;
+    color: #ffffff !important;
+}
+
+/*email css*/
+#background {
+    background: #efeded;
+    padding-top: 235px;
+    padding-bottom: 235px;
+}
+
+/*review part css*/
+.review-slider {
+    position: relative;
+}
+
+.caret-left {
+    position: absolute;
+    top: 45%;
+    left: 75px;
+    transform: translateX(-50%);
+    font-size: 45px;
+    color: #87b9f5;
+    cursor: pointer;
+}
+
+.caret-right {
+    z-index: 1;
+    position: absolute;
+    top: 45%;
+    right: 58px;
+    transform:
+        translateX(-50%);
+    font-size: 45px;
+    color: #87b9f5;
+    cursor: pointer;
+}

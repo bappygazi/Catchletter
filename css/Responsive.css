@@ -1,0 +1,1156 @@
+@media(max-width:575px) {
+    /*    navbar part css */
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        color: #fff;
+        padding: 5px 10px 5px 10px;
+        border: none;
+        font-size: 25px;
+    }
+
+    .navbar-collapse {
+        background: #1979ec;
+        border-radius: 3px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+    }
+
+    .free-trial a {
+        color: #1979ec !important;
+    }
+
+    /*banner css start*/
+    #banner {
+        padding: 130px 0;
+    }
+
+    .banner-text h3 {
+        font-size: 30px;
+    }
+
+    .banner-text p {
+        font-size: 21px;
+    }
+
+    .deshboard {
+        bottom: -20px;
+    }
+
+    /*    add-website part css */
+    .add-website-text {
+        padding-top: 127px;
+    }
+
+    .website-text2 h3 {
+        margin: 0 4px;
+    }
+
+    .website-text2 h3 {
+        font-size: 40px;
+        padding: 0;
+    }
+
+    .website-text3 h3 {
+        font-size: 36px;
+    }
+
+    .add-website-text h3 {
+        font-size: 40px;
+    }
+
+    .add-website-text p {
+        font-size: 16px;
+    }
+
+    .website-text1 {
+        padding-top: 50px;
+    }
+
+    .website-text3 h4 {
+        font-size: 16px;
+    }
+
+    .website-text3 p {
+        font-size: 16px;
+        padding-top: 5px
+    }
+
+    .website-text4 {
+        padding-top: 0;
+    }
+
+    .new-website-text1 {
+        padding-top: 0;
+        padding-top: 0;
+    }
+
+    .new-website-text4 {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+
+    .pad {
+        padding-right: 0px !important;
+    }
+
+    /*    new-website part css */
+    .new-website-text3 p {
+        font-size: 16px;
+        padding-top: 5px;
+
+    }
+
+    .new-website-text3 {
+        padding-top: 130px;
+    }
+
+    .new-website-text2 {
+        padding-top: 130px;
+    }
+
+    .new-website-text2 h3 {
+        padding: 0px 0px;
+        margin: 0 3px;
+    }
+
+    .pad {
+        margin: 0;
+    }
+
+    .new-website-text3 h4 {
+        padding-top: 10px;
+        font-size: 22px;
+
+    }
+
+    .new-website-text3 h3 {
+        font-size: 36px;
+    }
+
+    .website-text6 {
+        padding-top: 10px;
+        padding-bottom: 50px;
+
+
+    }
+
+    /*     start-part css */
+    #start {
+        padding: 50px 0;
+    }
+
+    #start::after {
+        width: 100%;
+    }
+
+    .start-text h3 {
+        font-size: 34px;
+    }
+
+    .start-text a {
+        font-size: 21px;
+        padding: 15px 18px;
+    }
+
+    .start-text p {
+        font-size: 15px;
+    }
+
+    /*    email-text css */
+    #email {
+        padding-bottom: 50px;
+    }
+
+    .email-text h3 {
+        padding-top: 50px;
+        font-size: 31px;
+        padding-bottom: 20px;
+
+    }
+
+    .email-text p {
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 18px;
+        padding-bottom: 60px;
+
+    }
+
+    .email-items p {
+        font-size: 15px;
+    }
+
+    /*    add-website css */
+    #client {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    .client-text h3 {
+        font-size: 35px;
+    }
+
+    .text-right {
+        text-align: center !important;
+    }
+
+    .clients {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .clients-text p {
+        padding-top: 0;
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .client-message {
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .client-message p {
+        font-size: 16px;
+    }
+
+    .client-img {
+        padding-bottom: 10px;
+        text-align: center !important;
+    }
+
+    /*    footer css */
+    #footer {
+        padding-top: 0;
+        padding-bottom: 45px;
+    }
+
+    .black-logo {
+        display: inline-block;
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+
+    .orginal-logo {
+        display: none;
+    }
+
+    .social-logo {
+        padding-top: 50px;
+    }
+
+    .logo-img {
+        text-align: center;
+    }
+
+    .social-icon {
+        text-align: center;
+    }
+
+    .social-icon a i {
+        color: #333;
+    }
+
+    .social-icon {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .footer-text-link {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .footer-text-link p {
+        padding-left: 100px;
+    }
+
+    /*==============================
+        Product page css Start
+===============================*/
+    #product-banner {
+        padding-bottom: 173px;
+    }
+
+    .product-deshboard {
+        left: 0;
+    }
+
+    .product-website-text {
+        padding-top: 20px;
+    }
+
+    .product-website-text h4 {
+        font-size: 20px;
+        padding-bottom: 50px;
+    }
+
+    .product-website-text ul li span {
+        width: 82%;
+        font-size: 16px;
+        padding: 10px 0;
+        line-height: 25px;
+    }
+
+    .product-website-text ul li i {
+        top: 27px;
+    }
+
+    .product-website-img {
+        padding-top: 40px;
+    }
+
+    /*==============================
+        Product page css end
+===============================*/
+    /*==============================
+        Sign Up page css start
+===============================*/
+    .sigin-form {
+        text-align: center;
+    }
+
+    .all-input {
+        text-align: left;
+    }
+
+    .login a {
+        padding: 12px 34%;
+    }
+
+    .forgot {
+        font-size: 14px;
+    }
+
+    .sigin-form {
+        border-bottom-left-radius: 0px !important;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+
+    }
+
+    .sigin-text {
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+    }
+
+    .padd-sig {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .padd-text {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .sigin-text p {
+        font-size: 19px;
+    }
+
+    .p-r {
+        padding-right: 15px !important;
+    }
+
+    .p-l {
+        padding-left: 15px !important;
+    }
+
+    /*==============================
+        Sign Up page css end
+===============================*/
+    /*==============================
+        Product page css start
+===============================*/
+    .pricing-content {
+        margin-top: 25px;
+    }
+
+    .save {
+        font-size: 15px;
+    }
+
+    .pricing-details3 {
+        margin-left: 0;
+        border: 2px solid #f1f1f1 !important;
+    }
+
+    #background {
+        display: none;
+    }
+
+    .pricing-details {
+        border-right: 2px solid #f1f1f1 !important;
+    }
+
+    .pricing-content h3 {
+        font-size: 29px;
+    }
+
+    .pricing-content {
+        position: static;
+    }
+
+    .pricing-img {
+        display: none;
+    }
+
+    .pad-right {
+        padding-right: 1.5rem !important;
+    }
+
+    .pad-left {
+        padding-left: 1.5rem !important;
+    }
+
+    .items-text a {
+        padding: 13px 20%;
+    }
+
+    .caret-left {
+        top: 91%;
+        z-index: 1;
+    }
+
+    .caret-right {
+        top: 91%;
+    }
+
+    /*==============================
+        Product page css end
+===============================*/
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    /*    navbar part css */
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        color: #fff;
+        padding: 5px 10px 5px 10px;
+        border: none;
+        font-size: 25px;
+    }
+
+    .navbar-collapse {
+        background: #1979ec;
+        border-radius: 3px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+    }
+
+    .free-trial a {
+        color: #1979ec !important;
+    }
+
+    /*banner css start*/
+    #banner {
+        padding-top: 130px;
+        padding-bottom: 218px
+    }
+
+    .banner-text h3 {
+        font-size: 30px;
+    }
+
+    .banner-text p {
+        font-size: 21px;
+    }
+
+    .deshboard {
+        bottom: -20px;
+    }
+
+    /*    add-website part css */
+    .add-website-text {
+        padding-top: 80px;
+    }
+
+    .new-website-text3 {
+        padding-top: 130px;
+    }
+
+    .new-website-text2 {
+        padding-top: 130px;
+    }
+
+    .website-text2 h3 {
+        margin: 0 17px;
+    }
+
+    .website-text2 h3 {
+        font-size: 40px;
+        padding: 0;
+    }
+
+    .website-text3 h3 {
+        font-size: 36px;
+    }
+
+    .add-website-text h3 {
+        font-size: 40px;
+    }
+
+    .add-website-text p {
+        font-size: 16px;
+    }
+
+    .website-text1 {
+        padding-top: 50px;
+    }
+
+    .website-text3 h4 {
+        font-size: 16px;
+    }
+
+    .website-text3 p {
+        font-size: 16px;
+        padding-top: 5px
+    }
+
+    .website-text4 {
+        padding-top: 0;
+    }
+
+    .new-website-text1 {
+        padding-top: 0;
+        padding-top: 0;
+    }
+
+    .new-website-text4 {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+
+    .pad {
+        padding-right: 0px !important;
+    }
+
+    /*    new-website part css */
+    .new-website-text3 p {
+        font-size: 16px;
+        padding-top: 5px;
+
+    }
+
+    .new-website-text2 h3 {
+        padding: 0px 0px;
+        margin: 0 17px;
+    }
+
+    .pad {
+        margin: 0;
+    }
+
+    .new-website-text3 h4 {
+        padding-top: 10px;
+        font-size: 22px;
+
+    }
+
+    .new-website-text3 h3 {
+        font-size: 36px;
+    }
+
+    .website-text6 {
+        padding-top: 10px;
+        padding-bottom: 50px;
+
+
+    }
+
+    /*     start-part css */
+    #start {
+        padding: 50px 0;
+    }
+
+    #start::after {
+        width: 85%;
+    }
+
+    .start-text h3 {
+        font-size: 34px;
+    }
+
+    .start-text a {
+        font-size: 21px;
+    }
+
+    .start-text p {
+        font-size: 15px;
+    }
+
+    /*    email-text css */
+    #email {
+        padding-bottom: 50px;
+    }
+
+    .email-text h3 {
+        padding-top: 50px;
+        font-size: 31px;
+        padding-bottom: 20px;
+
+    }
+
+    .email-text p {
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 18px;
+        padding-bottom: 60px;
+
+    }
+
+    .email-items p {
+        font-size: 15px;
+    }
+
+    /*    add-website css */
+    #client {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    .client-text h3 {
+        font-size: 35px;
+    }
+
+    .text-right {
+        text-align: center !important;
+    }
+
+    .clients {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .clients-text p {
+        padding-top: 0;
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .client-message {
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .client-message p {
+        font-size: 16px;
+    }
+
+    .client-img {
+        padding-bottom: 10px;
+        text-align: center !important;
+    }
+
+    /*    footer css */
+    #footer {
+        padding-top: 0;
+        padding-bottom: 45px;
+    }
+
+    .black-logo {
+        display: inline-block;
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+
+    .orginal-logo {
+        display: none;
+    }
+
+    .social-logo {
+        padding-top: 50px;
+    }
+
+    .logo-img {
+        text-align: center;
+    }
+
+    .social-icon {
+        text-align: center;
+    }
+
+    .social-icon a i {
+        color: #333;
+    }
+
+    .social-icon {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .footer-text-link {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    /*product page css*/
+    #product-banner {
+        padding-bottom: 286px;
+    }
+
+    .product-deshboard {
+        left: -27px;
+    }
+
+    /*    signup part start*/
+    .sigin-form {
+        text-align: center;
+    }
+
+    .all-input {
+        text-align: left;
+    }
+
+    .footer-text-link p {
+        padding-left: 235px;
+    }
+
+    .login a {
+        padding: 12px 34%;
+    }
+
+    .forgot {
+        font-size: 14px;
+    }
+
+    .sigin-form {
+        border-bottom-left-radius: 0px !important;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+
+    }
+
+    .sigin-text {
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+    }
+
+    .padd-sig {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .padd-text {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .sigin-text p {
+        font-size: 19px;
+    }
+
+    .p-r {
+        padding-right: 15px !important;
+    }
+
+    .p-l {
+        padding-left: 15px !important;
+    }
+
+    /*==============================
+        Product page css start
+===============================*/
+    .pricing-content {
+        margin-top: 25px;
+    }
+
+    .save {
+        font-size: 15px;
+    }
+
+    .pricing-details3 {
+        margin-left: 0;
+        border: 2px solid #f1f1f1 !important;
+    }
+
+    .pricing-details {
+        border-right: 2px solid #f1f1f1 !important;
+    }
+
+    .pricing-content h3 {
+        font-size: 29px;
+    }
+
+    #background {
+        display: none;
+    }
+
+    .pricing-content {
+        position: static;
+    }
+
+    .pricing-img {
+        display: none;
+    }
+
+    .pad-right {
+        padding-right: 1.5rem !important;
+    }
+
+    .pad-left {
+        padding-left: 1.5rem !important;
+    }
+
+    .items-text a {
+        padding: 13px 20%;
+    }
+
+    .caret-left {
+        top: 91%;
+        z-index: 1;
+    }
+
+    .caret-right {
+        top: 91%;
+    }
+
+    /*==============================
+        Product page css end
+===============================*/
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    /*    navbar part css */
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        color: #fff;
+        padding: 5px 10px 5px 10px;
+        border: none;
+        font-size: 25px;
+    }
+
+    .navbar-collapse {
+        background: #1979ec;
+        border-radius: 3px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+    }
+
+    .free-trial a {
+        color: #1979ec !important;
+    }
+
+    /*banner css start*/
+    #banner {
+        padding-top: 130px;
+        padding-bottom: 286px
+    }
+
+
+    .deshboard {
+        bottom: -20px;
+    }
+
+    /*    add-website part css */
+    .add-website-text {
+        padding-top: 80px;
+    }
+
+    .new-website-text3 {
+        padding-top: 130px;
+    }
+
+    .new-website-text2 {
+        padding-top: 130px;
+    }
+
+    .website-text2 h3 {
+        margin: 0 32px;
+    }
+
+    .website-text2 h3 {
+        padding: 0;
+    }
+
+    .new-website-text3 {
+        padding-top: 300px;
+    }
+
+    .new-website-text2 {
+        padding-top: 300px;
+    }
+
+    .website-text1 {
+        padding-top: 50px;
+    }
+
+    .website-text3 p {
+        padding-top: 5px
+    }
+
+    .website-text4 {
+        padding-top: 0;
+    }
+
+    .new-website-text1 {
+        padding-top: 0;
+        padding-top: 0;
+    }
+
+    .new-website-text4 {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+
+    .pad {
+        padding-right: 0px !important;
+    }
+
+    /*    new-website part css */
+    .new-website-text3 p {
+        padding-top: 5px;
+
+    }
+
+    .new-website-text2 h3 {
+        padding: 0px 0px;
+        margin: 0 32px;
+    }
+
+    .pad {
+        margin: 0;
+    }
+
+    .new-website-text3 h4 {
+        padding-top: 10px;
+
+    }
+
+    .website-text6 {
+        padding-top: 10px;
+        padding-bottom: 50px;
+
+
+    }
+
+    /*     start-part css */
+    #start {
+        padding: 50px 0;
+    }
+
+    #start::after {
+        width: 65%;
+    }
+
+    .start-text h3 {
+        font-size: 34px;
+    }
+
+    /*    email-text css */
+    #email {
+        padding-bottom: 50px;
+    }
+
+    .email-text h3 {
+        padding-top: 50px;
+        font-size: 31px;
+        padding-bottom: 20px;
+
+    }
+
+    .email-text p {
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 60px;
+
+    }
+
+
+    /*    add-website css */
+    #client {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    .client-text h3 {
+        font-size: 35px;
+    }
+
+    .text-right {
+        text-align: center !important;
+    }
+
+    .clients {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .clients-text p {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .client-message {
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .client-img {
+        padding-bottom: 10px;
+        text-align: center !important;
+    }
+
+    /*    footer css */
+    #footer {
+        padding-top: 0;
+        padding-bottom: 45px;
+    }
+
+    .black-logo {
+        display: inline-block;
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+
+    .orginal-logo {
+        display: none;
+    }
+
+    .social-logo {
+        padding-top: 50px;
+    }
+
+    .logo-img {
+        text-align: center;
+    }
+
+    .social-icon {
+        text-align: center;
+    }
+
+    .social-icon a i {
+        color: #333;
+    }
+
+    .social-icon {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .footer-text-link {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    /*product page css*/
+    #product-banner {
+        padding-bottom: 372px;
+    }
+
+    .product-deshboard {
+        left: -14px;
+    }
+
+    /*    signup css part*/
+    .login a {
+        padding: 12px 34%;
+    }
+
+    .sigin-text p {
+        font-size: 19px;
+    }
+
+    .sigin-text {
+        padding-top: 80px;
+        padding-bottom: 66px;
+    }
+
+    /*==============================
+        Product page css start
+===============================*/
+    .pricing-content {
+        margin-top: 25px;
+    }
+
+    #background {
+        display: none;
+    }
+
+    .save {
+        font-size: 15px;
+    }
+
+    .pricing-details3 {
+        margin-left: 0;
+        border: 2px solid #f1f1f1 !important;
+    }
+
+    .pricing-details {
+        border-right: 2px solid #f1f1f1 !important;
+    }
+
+    .pricing-content h3 {
+        font-size: 29px;
+    }
+
+    .pricing-content {
+        position: static;
+    }
+
+    .pricing-img {
+        display: none;
+    }
+
+    .pad-right {
+        padding-right: 1.5rem !important;
+    }
+
+    .pad-left {
+        padding-left: 1.5rem !important;
+    }
+
+    .items-text a {
+        padding: 13px 20%;
+    }
+
+    .caret-left {
+        top: 85%;
+        z-index: 1;
+    }
+
+    .caret-right {
+        top: 85%;
+    }
+
+    /*==============================
+        Product page css end
+===============================*/
+}
+
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    #banner {
+        padding-bottom:
+            428px
+    }
+
+    .sigin-text {
+        padding-top: 80px;
+        padding-bottom: 8px;
+    }
+
+    .login a {
+        padding: 13px 39%;
+    }
+
+    .sigin-text h3 {
+        padding-top: 23px;
+    }
+
+    .pricing-content {
+        position: static;
+    }
+
+}
